@@ -1,0 +1,31 @@
+@import '@/assets/scss/element-variables.scss';
+
+.#{$prefix}-space {
+  display: inline-flex;
+
+  &-block {
+    display: flex;
+  }
+
+  &-vertical {
+    flex-direction: column;
+  }
+
+  &-align {
+    &-center {
+      align-items: center;
+    }
+
+    &-start {
+      align-items: flex-start;
+    }
+
+    &-end {
+      align-items: flex-end;
+    }
+
+    &-baseline {
+      align-items: baseline;
+    }
+  }
+}
